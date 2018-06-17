@@ -5,6 +5,7 @@ module.exports = function (app) {
   app.get('/api/profile', profile);
   app.post('/api/logout', logout);
   app.post('/api/login', login);
+  app.get('/api/status', checkStatus);
 
   var userModel = require('../models/user/user.model.server');
 
@@ -17,6 +18,13 @@ module.exports = function (app) {
         res.json(user);
       })
   }
+
+    function checkStatus(req, res) {
+        if (req.session['currentUser']) {
+            res.send(true)
+        }
+        else res.send(false)
+    }
 
   function logout(req, res) {
     req.session.destroy();
