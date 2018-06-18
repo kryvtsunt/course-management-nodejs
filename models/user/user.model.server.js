@@ -3,7 +3,7 @@ var userSchema = require('./user.schema.server');
 var userModel = mongoose.model('UserModel', userSchema);
 
 function findUserByCredentials(credentials) {
-  return userModel.findOne(credentials, {username: 1});
+  return userModel.findOne(credentials);
 }
 
 function findUserById(userId) {
@@ -11,6 +11,7 @@ function findUserById(userId) {
 }
 
 function createUser(user) {
+  user.role = "student";
   return userModel.create(user);
 }
 

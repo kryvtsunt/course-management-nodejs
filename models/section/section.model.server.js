@@ -6,6 +6,10 @@ function createSection(section) {
     return sectionModel.create(section);
 }
 
+function findSectionById(sectionId){
+    return sectionModel.findOne(sectionId);
+}
+
 function deleteSection(sectionId) {
     return sectionModel.remove({_id: sectionId});
 }
@@ -41,6 +45,7 @@ module.exports = {
     decrementSectionSeats: decrementSectionSeats,
     incrementSectionSeats: incrementSectionSeats,
     deleteSection: deleteSection,
-    updateSection: updateSection
+    updateSection: updateSection,
+    findSectionById: findSectionById
 
 };

@@ -9,6 +9,7 @@ module.exports = function (app) {
     app.get('/api/course/:courseId/enrollment/check', checkSectionEnrollment);
     app.get('/api/student/section', findSectionsForStudent);
 
+
     var sectionModel = require('../models/section/section.model.server');
     var enrollmentModel = require('../models/enrollment/enrollment.model.server');
 
@@ -48,6 +49,9 @@ module.exports = function (app) {
             section: sectionId,
             course: courseId
         };
+        // sectionModel.findSectionById(sectionId)
+        //     .then(function (section) {
+        //         if (section.seats > 0) {
         sectionModel
             .decrementSectionSeats(sectionId)
             .then(function () {
@@ -57,6 +61,8 @@ module.exports = function (app) {
             .then(function (enrollment) {
                 res.json(enrollment);
             })
+        //     }
+        // })
     }
 
     function dropStudentInSection(req, res) {
