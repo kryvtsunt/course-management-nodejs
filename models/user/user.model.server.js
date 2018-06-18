@@ -14,6 +14,10 @@ function createUser(user) {
   return userModel.create(user);
 }
 
+function updateUser(userId, user) {
+    return userModel.update({_id: userId},{$set:{ firstName: user.firstName, lastName: user.lastName, email: user.email, password: user.password, img_path: user.img_path}})
+}
+
 function findAllUsers() {
   return userModel.find();
 }
@@ -22,7 +26,8 @@ var api = {
   createUser: createUser,
   findAllUsers: findAllUsers,
   findUserById: findUserById,
-  findUserByCredentials: findUserByCredentials
+  findUserByCredentials: findUserByCredentials,
+    updateUser: updateUser
 };
 
 module.exports = api;

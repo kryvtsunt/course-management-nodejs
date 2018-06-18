@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d752f97-f9ef-480b-a23c-2560f16d533c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/lib/browser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/lib/compat/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/http-errors/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/http-errors/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/http-errors/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/http-errors/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/http-errors/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/setprototypeof/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/setprototypeof/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/setprototypeof/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/raw-body/node_modules/setprototypeof/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/enrollment/enrollment.model.server.js" afterPath="$PROJECT_DIR$/models/enrollment/enrollment.model.server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/enrollment/enrollment.schema.server.js" afterPath="$PROJECT_DIR$/models/enrollment/enrollment.schema.server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/section/section.model.server.js" afterPath="$PROJECT_DIR$/models/section/section.model.server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/package.json" afterPath="$PROJECT_DIR$/node_modules/express-session/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/README.md" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/dbcs-codec.js" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/dbcs-codec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/internal.js" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/internal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/utf16.js" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/utf16.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/utf7.js" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/utf7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/lib/extend-node.js" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/lib/extend-node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/lib/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/lib/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/raw-body/README.md" afterPath="$PROJECT_DIR$/node_modules/raw-body/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user/user.model.server.js" afterPath="$PROJECT_DIR$/models/user/user.model.server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/section.service.server.js" afterPath="$PROJECT_DIR$/services/section.service.server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/user.service.server.js" afterPath="$PROJECT_DIR$/services/user.service.server.js" />
     </list>
@@ -87,8 +42,8 @@
       <file leaf-file-name="section.service.server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/section.service.server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="66" lean-forward="true" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+            <state relative-caret-position="346">
+              <caret line="100" column="48" lean-forward="false" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -97,8 +52,18 @@
       <file leaf-file-name="user.service.server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/user.service.server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="392">
+              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.model.server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/user/user.model.server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -107,8 +72,8 @@
       <file leaf-file-name="section.model.server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/section/section.model.server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="1075">
+              <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -118,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/models/section/section.schema.server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -170,10 +135,11 @@
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/services/user.service.server.js" />
-        <option value="$PROJECT_DIR$/models/section/section.model.server.js" />
         <option value="$PROJECT_DIR$/models/enrollment/enrollment.schema.server.js" />
         <option value="$PROJECT_DIR$/models/enrollment/enrollment.model.server.js" />
+        <option value="$PROJECT_DIR$/services/user.service.server.js" />
+        <option value="$PROJECT_DIR$/models/user/user.model.server.js" />
+        <option value="$PROJECT_DIR$/models/section/section.model.server.js" />
         <option value="$PROJECT_DIR$/services/section.service.server.js" />
       </list>
     </option>
@@ -190,9 +156,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="377" />
-    <option name="y" value="99" />
-    <option name="width" value="1378" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -316,12 +281,12 @@
       <workItem from="1528751796973" duration="28000" />
       <workItem from="1528858715357" duration="569000" />
       <workItem from="1529012043143" duration="11000" />
-      <workItem from="1529252212561" duration="11130000" />
+      <workItem from="1529252212561" duration="15267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14022000" />
+    <option name="totallyTimeSpent" value="18159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -330,7 +295,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21909814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39364034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1754386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -357,7 +322,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/services/user.service.server.js</url>
-          <line>50</line>
+          <line>62</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -486,30 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/user/user.schema.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/user.service.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/section/section.schema.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/enrollment/enrollment.schema.server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -526,14 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/section/section.model.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/enrollment/enrollment.model.server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -542,10 +475,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/user.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user/user.model.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user/user.schema.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/section/section.schema.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/section/section.model.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/section.service.server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="66" lean-forward="true" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        <state relative-caret-position="346">
+          <caret line="100" column="48" lean-forward="false" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
           <folding />
         </state>
       </provider>
