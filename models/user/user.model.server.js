@@ -10,6 +10,10 @@ function findUserById(userId) {
   return userModel.findById(userId);
 }
 
+function findUserByUsername(username) {
+    return userModel.findOne({username: username});
+}
+
 function createUser(user) {
   user.role = "student";
   return userModel.create(user);
@@ -28,7 +32,8 @@ var api = {
   findAllUsers: findAllUsers,
   findUserById: findUserById,
   findUserByCredentials: findUserByCredentials,
-    updateUser: updateUser
+    updateUser: updateUser,
+    findUserByUsername: findUserByUsername
 };
 
 module.exports = api;
