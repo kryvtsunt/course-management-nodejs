@@ -1,15 +1,19 @@
 var express = require('express')
 var bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/tk-course-management');
+
+
+const HEROKU_MONGO_URL = 'mongodb://admin:admin42@ds263710.mlab.com:63710/heroku_fn2ll80q';
+mongoose.connect(HEROKU_MONGO_URL);
+// mongoose.connect('mongodb://localhost/tk-course-management');
 
 
 var app = express()
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({extended: true}));
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin",
         "http://localhost:4200");
     res.header("Access-Control-Allow-Headers",
@@ -19,8 +23,6 @@ app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Credentials", "true");
     next();
 });
-
-
 
 
 var session = require('express-session')
