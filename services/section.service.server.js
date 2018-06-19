@@ -3,9 +3,9 @@ module.exports = function (app) {
     app.post('/api/course/:courseId/section', createSection);
     app.get('/api/course/:courseId/section', findSectionsForCourse);
     app.post('/api/course/:courseId/section/:sectionId/enrollment', enrollStudentInSection);
-    app.post('/api/section/:sectionId/drop', dropStudentInSection);
-    app.post('/api/section/:sectionId/delete', deleteSection);
-    app.post('/api/section/:sectionId/update', updateSection);
+    app.delete('/api/section/:sectionId/drop', dropStudentInSection);
+    app.delete('/api/section/:sectionId/delete', deleteSection);
+    app.put('/api/section/:sectionId/update', updateSection);
     app.get('/api/course/:courseId/enrollment/check', checkSectionEnrollment);
     app.get('/api/student/section', findSectionsForStudent);
 

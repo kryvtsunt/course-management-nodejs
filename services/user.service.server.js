@@ -7,7 +7,7 @@ module.exports = function (app) {
   app.post('/api/logout', logout);
   app.post('/api/login', login);
   app.get('/api/status', checkStatus);
-    app.post('/api/user/update', updateUser);
+    app.put('/api/user/update', updateUser);
     app.get('/api/admin/status', checkAdminStatus);
 
   var userModel = require('../models/user/user.model.server');
