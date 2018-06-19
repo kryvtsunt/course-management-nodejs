@@ -70,4 +70,9 @@ userService(app);
 
 require('./services/section.service.server')(app);
 
-app.listen(4000);
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, function(){
+    console.log("Our app is running on port" + PORT)
+})
+
+// app.listen(4000);
