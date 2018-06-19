@@ -20,7 +20,7 @@ function createUser(user) {
 }
 
 function updateUser(userId, user) {
-    return userModel.update({_id: userId},{$set:{ firstName: user.firstName, lastName: user.lastName, email: user.email, password: user.password, img_path: user.img_path}})
+    return userModel.update({_id: userId},{$set:{ firstName: user.firstName, lastName: user.lastName, email: user.email, password: user.password, img_path: user.img_path}, phone: user.phone, address: user.address})
 }
 
 function findAllUsers() {
