@@ -114,10 +114,10 @@ module.exports = function (app) {
 
     function deleteSection(req, res) {
         var sectionId = req.params['sectionId'];
-        // enrollmentModel.deleteEnrollment(sectionId)
-        //     .then(function(){
-                sectionModel.deleteSection(sectionId)
-            // })
+        enrollmentModel.deleteEnrollment(sectionId)
+            .then(function(){
+                return sectionModel.deleteSection(sectionId)
+            })
             .then(function (section) {
                 res.json(section);
             })
