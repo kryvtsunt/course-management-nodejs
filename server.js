@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin",
-        "http://localhost:4200");
+        "http://tk-course-management-angular");
     res.header("Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept");
     res.header("Access-Control-Allow-Methods",
@@ -70,7 +70,7 @@ userService(app);
 
 require('./services/section.service.server')(app);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, function(){
     console.log("Our app is running on port" + PORT)
 })
